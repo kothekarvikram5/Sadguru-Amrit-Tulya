@@ -10,6 +10,13 @@ As this is only front-end part of the website, you need to connect it with its A
 
 API path - https://github.com/kothekarvikram5/Amrit-Tulya-API
 
+## Deployment
+For deployment angular app - https://angular.io/guide/deployment
+
+Published code is at dist/Sadguru-Amrit-Tulya. 
+
+You can directly Copy everything within to a folder on the server and follow further instructions from the above link.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
