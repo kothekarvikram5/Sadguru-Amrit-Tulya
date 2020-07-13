@@ -1,0 +1,31 @@
+.item-detail-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.item-detail-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 850px;
+}
+
+.detail-container {
+  justify-content: space-around;
+}
+.error-actions {
+  margin-top: 40px;
+}

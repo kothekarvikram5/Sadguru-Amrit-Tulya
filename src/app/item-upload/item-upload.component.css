@@ -1,0 +1,18 @@
+.upload{
+    font-weight:bold;
+    color:black;
+    margin-left: 4px;
+    line-height: 44px;
+}
+
+.percent {
+    width: 80px;
+}
+
+.message {
+    width: 154px;
+}
+
+.btn {
+    width:110px;
+  }

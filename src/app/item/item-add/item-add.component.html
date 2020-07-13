@@ -1,0 +1,31 @@
+<div class="item-container-holder">
+  <div class="title">
+    <h1>Add Item</h1>
+  </div>
+  <div class="item-add-container  ">
+    <div class="inputContainer">
+      <div class="item-field ">
+        <input type="text" class="name" id="name" placeholder="Name" #nameInput (blur)="addName(nameInput.value)">
+      </div>
+      <div class="item-field ">
+        <input type="text" class="description" id="description" placeholder="Description" #descInput (blur)="addDescription(descInput.value)">
+      </div>
+      <div class="item-field ">
+        <input type="number" class="price" id="price" placeholder="Price" #priceInput (blur)="addPrice(priceInput.value)">
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="button-field ">      
+        <app-item-upload (onUploadFinished)="uploadFinished($event)" ></app-item-upload>
+      </div>
+      <div class="button-field ">
+        <button class="btn btn-success from-top" (click)="list.addItem(nameInput.value,descInput.value,priceInput.value,response);">Add  <fa-icon [icon]="faCoffee" class="fa-fw"></fa-icon></button>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+
+<app-item-list [teaName]="teaName" [teaDescription]="teaDescription" [teaPrice]="teaPrice" [teaImagePath]="teaImagePath" #list></app-item-list>

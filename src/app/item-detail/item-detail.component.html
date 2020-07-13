@@ -1,0 +1,18 @@
+<div class="item-detail-holder">
+  <div class="container">
+    <div class="row detail-container">
+        <div class="col-md-3">
+          <img class="img" [src]="createImgPath(selectedItem.teaImagePath)" alt="Tea-Image">
+        </div>
+        <div class="col-md-6">
+          <h1>{{selectedItem.teaName}}</h1>
+          <p>{{selectedItem.teaDescription}}</p>
+        </div>
+        <div class="col-md-3"><h2>{{selectedItem.teaPrice | currency:'INR'}}</h2></div>
+    </div>
+  </div>
+  <div class="error-actions">
+    <a routerLink="" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-home"></span>
+      <fa-icon [icon]="faAngleDoubleLeft" class="fa-fw"></fa-icon>  Take Me Home</a>
+</div>
+</div>

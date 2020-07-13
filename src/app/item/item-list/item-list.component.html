@@ -1,0 +1,15 @@
+<div class="item-list-container">
+  <h1>Inventory</h1>
+  <div class="item-list-holder" *ngFor="let item of itemList;  index as i">
+    <a class="list-group-item" [routerLink]= "['/details', item.teaId]">
+     <img [src]="createImgPath(item.teaImagePath)"  alt="Tea-Image">
+      <p class="list-group-item-text list-name">{{item.teaName}}</p>
+      <p class="list-group-item-text list-description">{{item.teaDescription}}</p>
+      <p class="list-group-item-text list-price">{{item.teaPrice | currency:'INR'}}</p>
+    </a>
+    <div class="icon-container">
+      <span class="glyphicon glyphicon-trash btn btn-alert btn-lg" style="
+      font-size: inherit;" (click)="delete(item.teaId)"><fa-icon [icon]="faTrash"></fa-icon></span>
+    </div>
+  </div>
+</div>
