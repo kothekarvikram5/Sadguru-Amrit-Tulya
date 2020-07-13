@@ -1,7 +1,11 @@
 # SadguruAmritTulya
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+This is UI for SadGuru's Amrit Tulya - Tea Shop website.
+In this application, we can add items to the inventory, see details for the added items and delete the items if needed.
 
+As this is only front-end part of the website, you need to connect it with its API for Full stack web application.
+API path - 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
