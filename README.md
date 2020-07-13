@@ -1,8 +1,8 @@
-# SadguruAmritTulya
+# Sadguru's Amrit Tulya - Tea Shop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
-This is UI for SadGuru's Amrit Tulya - Tea Shop website.
+This is UI for Sadguru's Amrit Tulya - Tea Shop website.
 
 In this application, we can add items to the inventory, see details for the added items and delete the items if needed.
 
