@@ -6,6 +6,8 @@ This is UI for Sadguru's Amrit Tulya - Tea Shop website.
 
 In this application, we can add items to the inventory, see details for the added items and delete the items if needed.
 
+You need to first run 'npm-install' in terminal and then run the app.
+
 As this is only front-end part of the website, you need to connect it with its API for Full stack web application.
 
 API path - https://github.com/kothekarvikram5/Amrit-Tulya-API
